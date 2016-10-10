@@ -18,3 +18,13 @@ Available online: http://portal.research.lu.se/portal/files/12204979/seamTrackin
   organization={IEEE--Institute of Electrical and Electronics Engineers Inc.}
 }
 ```
+
+# Installation
+This package is not registered in `METADATA` and must thus be installed with the command  
+`Pkg.clone("git@github.com:baggepinnen/PFSeamTracking.jl.git")`  
+To test the functionality of the package, execute  
+`Pkg.test("PFSeamTracking")`  
+To plot results etc., install the package `Plots.jl` and a compatible backend. To perform the statistical analysis, install `ExperimentalAnalysis.jl`
+
+# Usage
+The file `simulate_tracking.jl` contains an example that executes a numer of simulations in parallel (start julia with `julia -p x` where `x` is your desired number of workers). The script then performs statistical analysis of the results using linear modeling with parameters as factors, as described in the paper.
