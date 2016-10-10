@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/baggepinnen/PFSeamTracking.jl.svg?branch=master)](https://travis-ci.org/baggepinnen/PFSeamTracking.jl)
 
-Repository implementing the franmework detailed in  
+Repository implementing the framework detailed in  
   **Particle Filter Framework for 6D Seam Tracking Under Large External Forces Using 2D Laser Sensors**  
   F Bagge Carlson, M Karlsson, A Robertsson, R Johansson  
   *2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*
